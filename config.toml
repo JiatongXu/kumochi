@@ -1,0 +1,21 @@
+baseURL = "http://example.org/"
+languageCode = "zh-cn"
+title = "堇学座"
+theme = "PaperMod"
+
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage = true
+
+[params]
+  ShowReadingTime = true
+  ShowToc = true
+  defaultTheme = "auto"
+
+[languages]
+  [languages.zh]
+    languageName = "中文"
+    weight = 1
+    title = "堇学座"
+    contentDir = "content/zh"
+    languageCode = "zh-cn"
