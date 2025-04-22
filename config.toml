@@ -1,6 +1,6 @@
 baseURL = 'https://kumochi.net/'
 languageCode = 'zh-cn'
-title = '堇学座'
+title = 'kumochi'
 theme = 'PaperMod'
 
 [params]
