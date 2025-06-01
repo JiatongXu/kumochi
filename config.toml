@@ -4,6 +4,7 @@ title = 'kumochi'
 theme = 'PaperMod'
 
 [params]
+  layout = "sidebar"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowCodeCopyButtons = true
@@ -13,9 +14,6 @@ theme = 'PaperMod'
   comments = false
   defaultTheme = "auto"
   disableThemeToggle = false
-  [params.profileMode]
-    enabled = true
-    title = "kumochi"
 
 [menu] 
   [[menu.main]]
