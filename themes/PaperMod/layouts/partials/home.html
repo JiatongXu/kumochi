@@ -1,0 +1,61 @@
+<section class="main-content">
+    {{ partial "home_info.html" . }}
+  </section>
+  
+  <section class="homepage-posts">
+    {{ $pages := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ $pages := where $pages "Params.private" "ne" true }}
+    {{ $pages := sort $pages "Date" "desc" }}
+    {{ range first 5 $pages }}
+      <article>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p><small>{{ .Date.Format "2006-01-02" }}</small></p>
+        <p>{{ .Summary }}</p>
+      </article>
+      <hr>
+    {{ end }}
+  </section>
+  
+  <style>
+    .main-content {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #eaeaea;
+    }
+    
+    .homepage-posts article {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 2rem;
+      transition: box-shadow 0.3s ease;
+    }
+    .homepage-posts article:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    
+    .homepage-posts h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    
+    .homepage-posts a {
+      color: #333;
+      text-decoration: none;
+    }
+    .homepage-posts a:hover {
+      color: #007acc;
+      text-decoration: underline;
+    }
+    
+    .homepage-posts p {
+      color: #444;
+      line-height: 1.6;
+    }
+    
+    small {
+      color: #888;
+      font-size: 0.9rem;
+    }
+    </style>

@@ -1,21 +1,27 @@
 baseURL = 'https://kumochi.net/'
 languageCode = 'zh-cn'
 title = 'kumochi'
-theme = 'PaperMod'
+theme = 'hugo-theme-stack'
+defaultContentLanguage = "zh-cn"
 
 [params]
-  layout = "sidebar"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowCodeCopyButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowToc = true
-  comments = false
-  defaultTheme = "auto"
-  disableThemeToggle = false
+  mainSections = ["posts", "daily"]
+  toc = true
+  sidebarBehavior = "sticky"
+  favicon = ""  # 暂时不使用头像或站点图标，可留空或移除
 
-[menu] 
+[params.sidebar]
+  avatar.enabled = false
+  subtitle = """
+  Until the moss had reached our lips. 
+  
+  And covered our names.
+  """
+  # a1,a2 为头像配置，暂时不用
+  # avatar.local = false
+  # avatar.src = ""
+
+[menu]
   [[menu.main]]
     identifier = "posts"
     name = "文章"

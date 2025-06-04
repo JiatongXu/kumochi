@@ -1,0 +1,5 @@
+{{- if eq site.Params.layout "sidebar" }}
+  {{ partial "sidebar.html" . }}
+{{- else }}
+  {{ partial "home.html" . }}
+{{- end }}

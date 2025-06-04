@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>http://localhost:1313/zh/sitemap.xml</loc>
-    
-      <lastmod>2025-04-18T18:20:57-05:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/daily/</loc>
+    <lastmod>2025-05-06T19:54:55-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-06T19:54:55-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/daily/%E9%9A%8F%E7%AC%9420250506/</loc>
+    <lastmod>2025-05-06T19:54:55-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/daily/20250423/</loc>
+    <lastmod>2025-04-23T19:41:07-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-18T18:20:57-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2025-04-18T18:20:57-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>

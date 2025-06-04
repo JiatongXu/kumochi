@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 18 Apr 2025 18:20:57 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我的第一篇文章</title>
-      <link>http://localhost:1313/zh/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
-      <pubDate>Fri, 18 Apr 2025 18:20:57 -0500</pubDate>
-      <guid>http://localhost:1313/zh/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
-      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h1&gt;&#xA;&lt;p&gt;这是我用HUGO写得第一篇文字。&#xA;作为尝试，看看效果。&#xA;换行只需要两个空格后回车。&lt;/p&gt;&#xA;&lt;h2 id=&#34;尝试二级标题&#34;&gt;尝试二级标题&lt;/h2&gt;&#xA;&lt;p&gt;尝试加粗 ** 加粗 **&lt;br&gt;&#xA;尝试斜体 * 斜体 *&lt;/p&gt;</description>
-    </item>
-  </channel>
+    <channel>
+        <title>kumochi</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on kumochi</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 23 Apr 2025 19:41:07 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>工作状态</title>
+        <link>http://localhost:1313/daily/20250423/</link>
+        <pubDate>Wed, 23 Apr 2025 19:41:07 -0500</pubDate>
+        
+        <guid>http://localhost:1313/daily/20250423/</guid>
+        <description>&lt;h1 id=&#34;上班记01&#34;&gt;上班记01
+&lt;/h1&gt;&lt;p&gt;今天是上班的第55天。其间没有休息过。&lt;br&gt;
+最近的生活是这样的：&lt;br&gt;
+五点闹钟响起，在混沌中起床。打开灯在水瓶中加入四勺速溶咖啡。穿好衣服在五点十五分出门。空气有时是湿热的，有时是冷冽的。德州的天气向来变幻莫测，出门时的天色永远是乌黑。五点半之前走到仓库打卡，把水瓶装满。然后去卸货台引导送货的卡车接驳。签单，在系统里录入包裹们的信息。然后去拉屎。&lt;br&gt;
+大概从六点左右开始卸车，最近招了一个司机来兼职帮我卸货，公司付他20一小时的时薪。一边听歌一遍卸车。最近借此机会听了不少古典乐和爵士乐。前段时间也听播客，但是听播客总让我变得更加暴躁。还是音乐能稍微平复一下对现状的不满。&lt;br&gt;
+之后的工作目标对我来说就是尽快清场，让司机们尽快领取自己路线的包裹然后离开仓库。顺便把运输物料整理一下，这样司机们离开之后我们也能快点下班。如果还能找到一些清闲的时刻，看看财新，看看微信读书，或者刷刷小红书。今天开始认真备考TOFEL，所以背背单词。最近两周10点半到11点基本可以离开仓库。&lt;br&gt;
+所以一天在仓库实际的工作时长大约在5到6小时左右，我们打8小时的卡。但是公司对此颇有微词。这公司的管理水平和专业素养实在堪忧。相比之下Nestle还是专业多了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>我的第一篇文章</title>
+        <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+        <pubDate>Fri, 18 Apr 2025 18:20:57 -0500</pubDate>
+        
+        <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+        <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!
+&lt;/h1&gt;&lt;p&gt;这是我用HUGO写得第一篇文字。
+作为尝试，看看效果。
+换行只需要两个空格后回车。&lt;/p&gt;
+&lt;h2 id=&#34;尝试二级标题&#34;&gt;尝试二级标题
+&lt;/h2&gt;&lt;p&gt;尝试加粗 &lt;strong&gt;加粗&lt;/strong&gt;&lt;br&gt;
+尝试斜体 &lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

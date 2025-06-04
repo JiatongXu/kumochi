@@ -1,0 +1,36 @@
+<aside class="sidebar">
+    <div class="sidebar-inner">
+      <h1>{{ .Site.Title }}</h1>
+      <nav>
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  
+  <main class="content">
+    {{ partial "home.html" . }}
+  </main>
+  
+  <style>
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 2rem 1rem;
+    background-color: #f7f7f7;
+  }
+  .sidebar-inner {
+    position: sticky;
+    top: 1rem;
+  }
+  .content {
+    margin-left: 220px;
+    padding: 2rem;
+  }
+  </style>
