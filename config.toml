@@ -30,7 +30,7 @@ defaultContentLanguage = "zh-cn"
 
   [[menu.main]]
     identifier = "daily"
-    name = "每日随笔"
+    name = "随笔"
     url = "/daily/"
     weight = 2
 
@@ -45,4 +45,3 @@ defaultContentLanguage = "zh-cn"
     name = "2025"
     url = "/daily/2025/"
     weight = 2
-    
