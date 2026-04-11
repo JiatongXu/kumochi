@@ -33,3 +33,16 @@ defaultContentLanguage = "zh-cn"
     name = "每日随笔"
     url = "/daily/"
     weight = 2
+
+    [[menu.main]]
+    parent = "daily"
+    name = "2026"
+    url = "/daily/2026/"
+    weight = 1
+
+    [[menu.main]]
+    parent = "daily"
+    name = "2025"
+    url = "/daily/2025/"
+    weight = 2
+    
